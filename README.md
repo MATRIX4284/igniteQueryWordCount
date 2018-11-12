@@ -1,20 +1,24 @@
 This application reads a Ignite Cache to get the key value pair and then uses 
 
 
-Intsall Ignite as said in the git:
+1.Install Ignite 2.6.0 and build it with maven.
 
-1.Clone the repository igniteQueryWordCount
+2.Start Ignite by $IGNITE_HOME/bin/ignite.sh start example-ignite.xml
 
-2.cd igniteQueryWordCount
+3.My custom example-ignite.xml is already kept in conf folder.Copy the entire and point to example that to start Ignite.
 
-3.Build the application
+4.Clone the repository igniteQueryWordCount
+
+5.cd igniteQueryWordCount
+
+6.Build the application
 
 mvn clean install
 
-4.Run the module 
+7.Run the module to stream data from a text book to Ignite.
 
-4.Run the application :
+8.Run the application :
 
-java -jar 
+java -jar target/QueryWords-1.0-SNAPSHOT.jar
 
-You will be able to see the top 10 words having max occurences and the count of their occurences 
+You will be able to see the top 10 words having max occurences and the count of their occurences. 
