@@ -15,7 +15,7 @@ This application reads a Ignite Cache to get the key value pair and then uses
 
 mvn clean install
 
-7.Run the module to stream data from a text book to Ignite.
+7.Run the module https://github.com/MATRIX4284/ignite-file-streamer to stream data from a text book to Ignite or you make your own according to your requirement.
 
 8.Run the application :
 
